@@ -1,0 +1,12 @@
+// protect.alfa
+fn main() {
+    let folder = "C:/Users/";
+    
+    Console.WriteLine("Iniciando Verificação ALFA...");
+
+    if Scanner.QuickCheck(folder) {
+        Console.WriteLine("⚠️ Ameaça encontrada!");
+    } else {
+        Console.WriteLine("✅ Sistema Seguro, Andre.");
+    }
+}
